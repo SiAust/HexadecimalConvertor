@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.si_au.hexadecimalconvertor.MainActivity">
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:hint="3f"
+        android:padding="10dp"
+        android:textColorHint="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/equality_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/userInput"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/equality_sign" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/equality_iv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:hint="63"
+        android:padding="15dp"
+        android:textColorHint="@android:color/black" />
+
+</RelativeLayout>
